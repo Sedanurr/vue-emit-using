@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     addCat() {
-      this.$emit("addCats", this.catCount);
+      this.$emit("addCats");
     },
   },
 };
